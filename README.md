@@ -20,8 +20,13 @@ npm install
 ### Run tests
 
 ```
+npx eslint .
+```
+
+```
 npm run test
 ```
+
 
 ## Authors
 

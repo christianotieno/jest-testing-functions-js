@@ -1,18 +1,18 @@
 const analyze = (array) => {
   let sum = 0;
-  array.map(n => { sum += n});
+  array.map(n => { sum += n; });
   const average = sum / array.length;
 
   const min = Math.min(...array);
   const max = Math.max(...array);
-  const length = array.length;
+  const { length } = array;
 
   return {
-    average: average,
-    min: min,
-    max: max,
-    length: length
-  }
-}
+    average,
+    min,
+    max,
+    length,
+  };
+};
 
 module.exports = analyze;
