@@ -3,4 +3,3 @@ function reverseString(str){
 }
 
 module.exports = reverseString;
-console.log(reverseString('hello'));
