@@ -3,7 +3,7 @@ const ceasar = (str, num) => {
   const fullAlphabet = alphabet + alphabet + alphabet;
   let response = '';
 
-  for (let i = 0; i < str.length; i++) {
+  for (let i = 0; i < str.length; i += 1) {
     let letter = str[i];
     const upper = (letter === letter.toUpperCase());
     letter = letter.toLowerCase();

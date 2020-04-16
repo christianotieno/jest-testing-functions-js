@@ -1,6 +1,9 @@
 const analyze = (array) => {
   let sum = 0;
-  array.map(n => { sum += n; });
+  array.map(n => {
+    sum += n;
+    return true;
+  });
   const average = sum / array.length;
 
   const min = Math.min(...array);
