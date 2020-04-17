@@ -1,15 +1,31 @@
 {
   "name": "testing-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Implementation of testing of javascript code with jest.",
   "main": "capitalizeString.js",
   "dependencies": {
     "jest": "^25.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
   "scripts": {
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianotieno/jest-testing-basic-js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/christianotieno/jest-testing-basic-js/issues"
+  },
+  "homepage": "https://github.com/christianotieno/jest-testing-basic-js#readme"
 }
